@@ -12,10 +12,8 @@ hostname = ios.ipnas.ltd
 *
 */
 
-var body = $response.body;
-body.apps.forEach(e => {
+var obj = JSON.parse($response.body);
+obj.apps.forEach(e => {
   e.lock = "0"
-})
-$done({ 
-    body 
 });
+$done({body: JSON.stringify(obj)});
