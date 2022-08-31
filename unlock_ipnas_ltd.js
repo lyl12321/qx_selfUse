@@ -3,7 +3,7 @@
  *
 
 [rewrite_local]
-http:\/\/ios\.ipnas\.ltd\/appstore url script-response-body https://raw.githubusercontent.com/lyl12321/qx_selfUse/main/unlock_ipnas_ltd.js
+https:\/\/ios\.ipnas\.ltd\/appstore url script-response-body https://raw.githubusercontent.com/lyl12321/qx_selfUse/main/unlock_ipnas_ltd.js
 
 [mitm] 
 
@@ -12,9 +12,10 @@ hostname = ios.ipnas.ltd
 *
 */
 
-
 var body = $response.body;
-body = '{"code":0,"msg":"ok"}';
+body.apps.forEach(e => {
+  e.lock = "0"
+})
 $done({ 
     body 
 });
