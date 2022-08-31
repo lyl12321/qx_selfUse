@@ -14,7 +14,7 @@ hostname = ios.ipnas.ltd
 
 
 var body = $response.body;
-body = "{"code":0,"msg":"解锁码存在!!!!"}";
+body = '{"code":0,"msg":"解锁码存在!!!!"}';
 $done({ 
     body 
 });
