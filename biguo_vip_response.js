@@ -2,7 +2,7 @@
  *
  *
 [rewrite_local]
-https:\/\/www\.biguotk\.com\/api\/v4\/study\/home url script-response-body https://raw.githubusercontent.com/lyl12321/qx_selfUse/main/biguo_vip_response.js
+^https:\/\/www\.biguotk\.com\/api\/v4\/study\/home.+ url script-response-body https://raw.githubusercontent.com/lyl12321/qx_selfUse/main/biguo_vip_response.js
 [mitm]
 hostname = www.biguotk.com
 *
