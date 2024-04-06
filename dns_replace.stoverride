@@ -1,0 +1,8 @@
+name: 仅使用本地dns
+dns:
+  # 将会完整覆盖原有 default-nameserver
+  default-nameserver: #!replace
+    - system
+  # 将会完整覆盖原有 nameserver
+  nameserver: #!replace
+    - system
