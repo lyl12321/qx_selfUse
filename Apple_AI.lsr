@@ -1,2 +1,3 @@
-DOMAIN-SUFFIX, apple-relay.cloudflare.com
-DOMAIN-SUFFIX, apple-relay.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,humb.apple.com
