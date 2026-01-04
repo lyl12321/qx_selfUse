@@ -1,3 +1,13 @@
+# Apple 搜索 / Siri / Spotlight 等
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni.apple.com
+
+# Apple 服务
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+
+# Apple Intelligence / PCC
+DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,humb.apple.com
+DOMAIN,cp4.cloudflare.com
